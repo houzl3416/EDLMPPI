@@ -76,7 +76,7 @@ sudo apt-get install ncbi-blast+
   pip install numpy==1.19.5
   ```
 
--  Download the **Train Data** at 
+-  Download the **Train Data** at http://39.104.118.143:5002/download_train
 - Following the steps showing in the  **/train/run.ipynb**
 
 #### Predict Example
