@@ -98,6 +98,10 @@ sudo apt-get install ncbi-blast+
   python ./predict/pred.py
   ```
 
+#### Predict Online
+
+- If you want to get predicted result faster, you can go to http://39.104.118.143:5002/ using our online predicted tool.
+
 ### Contact
 
 - If you have any question, you can contact **houzl20@mails.jlu.edu.cn**
