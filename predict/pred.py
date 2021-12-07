@@ -8,14 +8,15 @@ pip install numpy==1.19.0
 
 import numpy as np
 from keras.models import load_model
-from predict.utils import softmax
-from predict.capsule import Capsule
+from utils import softmax
+from capsule import Capsule
 
 
-model = load_model(base_url + 'predict/model/1.h5',custom_objects = {"Capsule": Capsule})
+model = load_model('./model/0.h5',custom_objects = {"Capsule": Capsule})
 
-vec = np.load(base_url)
+vec = np.load('./example/ProtT5.npy')
+MBF = np.load('./example/win_25.npy')
 
-result = model1.predict(vec.reshape(-1,1,1024))
-
+result = model.predict([vec.reshape(-1,1,1024),MBF])
+print(result)
 
