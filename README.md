@@ -76,7 +76,7 @@ sudo apt-get install ncbi-blast+
   pip install numpy==1.19.5
   ```
 
--  Download the **Train Data** at http://39.104.118.143:5002/download_train
+-  Download the **Train Data** at http://www.edlmppi.top:5002/download_train
 - Following the steps showing in the  **/train/run.ipynb**
 
 #### Predict Example
@@ -100,7 +100,7 @@ sudo apt-get install ncbi-blast+
 
 #### Predict Online
 
-- If you want to get predicted result faster, you can go to http://39.104.118.143:5002/ using our online predicted tool.
+- If you want to get predicted result faster, you can go to http://www.edlmppi.top:5002/ using our online predicted tool.
 
 ### Contact
 
