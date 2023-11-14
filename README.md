@@ -106,3 +106,4 @@ sudo apt-get install ncbi-blast+
 
 - If you have any question, you can contact **houzl20@mails.jlu.edu.cn**
 
+链接: https://pan.baidu.com/s/1UdpI5yENzCxgdd3ZSq66Ng?pwd=52jt 提取码: 52jt 复制这段内容后打开百度网盘手机App，操作更方便哦
